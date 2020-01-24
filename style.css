@@ -1,0 +1,39 @@
+/* utility */
+.vertical-center { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.showcase { 
+  display: flex;
+}
+
+/* index styles */
+.showcase-item {
+  width: 200px;
+}
+.showcase-item img { 
+  display: block;
+  width: 100%;
+}
+
+/* contact */
+.contact-info { 
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 1rem;
+}
+
+/* about */
+.customer-item { 
+  border: 1px solid black;
+  text-align: center;
+}

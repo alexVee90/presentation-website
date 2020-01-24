@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Chair presentation website" />
+    <meta name="keywords" content="chairs, things you sit on, chairz" />
+    <meta name="author" content="Alex Visan" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/17b916cdd9.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- css sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- favicon -->
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>ChairzDotCom - the hipest website about chairs</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <nav class="main-nav">
+        <div class="nav-logo">
+          <img src="/images/favicon-32x32.png" alt="chair-logo" />
+          <h1>ChairzDotCom</h1>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <!-- contact-us -->
+    <section>
+      <h3>Contact Us</h3>
+      <form>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Password" name="password">
+        </div>
+        <div class="form-group">
+          <p>Gender:</p>
+          <input type="radio" name="gender" id="male">Male
+          <input type="radio" name="gender" id="female">Female
+          <input type="radio" name="gender" id="other">Other
+        </div>
+        <div class="form-group">
+          <p>How would you like us to contact you?</p>
+          <select>
+            <option value="phone">Phone</option>
+            <option value="email">Email</option>
+            <option value="telegram" selected>Telegram</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>What did you like most about us?</p>
+          <input type="checkbox" name="design" value="design">Design<br>
+          <input type="checkbox" name="colors" value="colors">Colors<br>
+          <input type="checkbox" name="comfort" value="comfort" checked>Comfort<br>
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="What did you think about us?"></textarea>
+        <button>Submit</button>
+      </form>
+    </section>
+    <!-- contact-info -->
+    <section class="vertical-center">
+      <h3>How to reach us</h3>
+      <div class="contact-info">
+        <article class="contact-item">
+          <i class="fas fa-envelope fa-2x"></i>
+          <h4>
+            Email
+          </h4>
+          <p>
+            <a href="mailto:chairzDotCom@gmail.com">chairzDotCom@gmail.com</a>
+          </p>
+        </article>
+        <article class="contact-item">
+          <i class="fas fa-phone fa-2x"></i>
+          <h4>
+            Phone
+          </h4>
+          <p>
+            <a href="tel:+0251 333 444">0251 333 444</a>
+          </p>
+        </article>
+        <address class="contact-item">
+          <i class="fas fa-map-marker-alt fa-2x"></i>
+          <br>
+          <a href="https://www.google.com/maps/@44.3289977,23.814548,17z" target="_blank">
+            <p>
+            Bloc X, <br> 
+            Bulevardul Dacia 136, <br>
+            Craiova 200649
+            </p>
+           </a>
+        </address>
+      </div>
+    </section>
+    <hr>
+    <!-- FOOTER  -->
+    <footer class="main-footer">
+      <p>Copyright &copy; 2020</p>
+      <aside class="social">
+        <a target="_blank" href="https://twitter.com/?lang=ro"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a target="_blank" href="https://ro-ro.facebook.com/"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a target="_blank" href="https://www.instagram.com/?hl=ro"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a target="_blank" href="https://www.linkedin.com/feed/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </aside>
+    </footer>
+    <!-- js sheet -->
+    <script src="main.js"></script>
+  </body>
+</html>
