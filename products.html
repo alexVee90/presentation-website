@@ -21,7 +21,7 @@
   <body>
     <!-- NAVBAR -->
     <header>
-      <nav class="main-nav">
+      <nav class="main-nav horizontal-center">
         <div class="nav-logo">
           <img src="/images/favicon-32x32.png" alt="chair-logo" />
           <h1>ChairzDotCom</h1>
@@ -43,42 +43,45 @@
       </nav>
     </header>
     <hr>
-
-    <section id="products-info">
-      <h3>Strong Points</h3>
-      <ul>
-        <li>Cutting edge design <meter value="9" min="0" max="10"></meter></li>
-        <li>Durability <meter value="10" min="0" max="10"></meter></li>
-        <li>24/7 Customer Service Support <meter value="10" min="0" max="10"></meter></li>
-        <li>Check out more strong points in the below video and <a href="https://www.youtube.com/watch?v=1M5I47Bq5vM">here</a> <strong>(this link opens in the same tab)</strong></li>
-      </ul>
-    </section>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1M5I47Bq5vM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <aside class="transport-info">
-      <h3>Preffered means of transportation (in order)</h3>
-      <ol>
-        <li>
-          <i class="fas fa-ship"></i><span>Ferry</span> 
-        </li>
-        <li>
-          <i class="fas fa-truck"></i><span>Truck</span> 
-        </li>
-        <li>
-          <i class="fas fa-plane-departure"></i><span>Airfreight</span>  
-        </li>
-        <li>
-          <i class="fab fa-telegram-plane"></i><span>Check out more means of tranportation we put on your disposal <a href="https://www.youtube.com/watch?v=kSa-F4eXkwc" target="_blank">here</a><strong> (this link opens in a new tab)</strong></span>  
-        </li>
-      </ol>
-    </aside>
-    <aside class="order-info">
+    <main id="products">
+      <section id="products-info">
+        <div class="products-info-text">
+          <h3>Strong Points</h3>
+          <ul>
+            <li>Cutting edge design <meter value="9" min="0" max="10"></meter></li>
+            <li>Durability <meter value="10" min="0" max="10"></meter></li>
+            <li>24/7 Customer Service Support <meter value="10" min="0" max="10"></meter></li>
+            <li>Check out more strong points in the below video and <a href="https://www.youtube.com/watch?v=1M5I47Bq5vM">here</a> <strong>(this link opens in the same tab)</strong></li>
+          </ul>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1M5I47Bq5vM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+      <section id="products-transport">
+        <h3>Preffered means of transportation (in order)</h3>
+        <ol>
+          <li>
+            <i class="fas fa-ship"></i><span>Ferry</span> 
+          </li>
+          <li>
+            <i class="fas fa-truck"></i><span>Truck</span> 
+          </li>
+          <li>
+            <i class="fas fa-plane-departure"></i><span>Airfreight</span>  
+          </li>
+          <li>
+            <i class="fab fa-telegram-plane"></i><span>Check out more means of tranportation we put on your disposal <a href="https://www.youtube.com/watch?v=kSa-F4eXkwc" target="_blank">here</a><strong> (this link opens in a new tab)</strong></span>  
+          </li>
+        </ol>
+      </section>
+    </main>
+    <article class="order-info">
       <h3>Order Status:</h3>
       <p>If you have placed an order, log in so you can see the progress</p>
       <p>Preparing Shipping <progress value="20" max="100"></progress></p>
-    </aside>
+    </article>
     <hr>
     <!-- FOOTER  -->
-    <footer class="main-footer">
+    <footer class="main-footer horizontal-center">
       <p>Copyright &copy; 2020</p>
       <aside class="social">
         <a target="_blank" href="https://twitter.com/?lang=ro"

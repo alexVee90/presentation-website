@@ -21,7 +21,7 @@
   <body>
     <!-- NAVBAR -->
     <header>
-      <nav class="main-nav">
+      <nav class="main-nav horizontal-center">
         <div class="nav-logo">
           <img src="/images/favicon-32x32.png" alt="chair-logo" />
           <h1>ChairzDotCom</h1>
@@ -43,45 +43,50 @@
       </nav>
     </header>
     <hr />
-    <!-- SHOWCASE -->
-    <hr />
-    <section class="about-us">
-      <h2>Our company</h2>
-      <p>
-        We opened our gates on the
-        <time datetime="2014-01-2018">16th of Jan 2018</time> and since then we
-        have strived alongside our customers
-      </p>
-      <img width="200px" src="images/opened-gates.jpg" alt="chairs-factory" />
-    </section>
-    <section class="stats">
-      <h3>Stats</h3>
-      <p>
-        We are a company in continous grouth because we invest in our clients.
-        Check out the table below to see our growth over the years
-      </p>
-      <table>
-        <thead>
-          <tr>
-            <th>Year</th>
-            <th>Revenue</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>2018</td>
-            <td>800.000$</td>
-          </tr>
-          <tr>
-            <td>2019</td>
-            <td>900.000$</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section class="vertical-center">
+    <!-- About Main Content -->
+    <main id="about">
+      <section id="about-desc">
+        <h2>Our company</h2>
+        <p>
+          We opened our gates on the
+          <time datetime="2014-01-2018">16th of Jan 2018</time> and since then we
+          strived alongside our customers
+        </p>
+        <figure>
+          <img src="images/opened-gates.jpg" alt="chairs-factory" />
+        </figure>
+      </section>
+      <section id="about-stats"">
+        <h3>Stats</h3>
+        <p>
+          We are a company in continous growth because we invest in our clients.
+          Check out the table below to see our progress over the years.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Revenue</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2018</td>
+              <td>800.000$</td>
+            </tr>
+            <tr>
+              <td>2019</td>
+              <td>900.000$</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    
+    <!-- Client Testimonials  -->
+    <article id="about-testimonials" class="vertical-center">
       <h3>Some of our customers and their testimonals</h3>
-      <div class="customers showcase">
+      <div class="customers horizontal-center">
         <section class="customers-list">
           <h4>Our first tier Customers:</h4>
           <div class="customer-item">
@@ -119,10 +124,10 @@
           </div>
         </section>
       </div>
-    </section>
+    </article>
     <hr />
     <!-- FOOTER  -->
-    <footer class="main-footer">
+    <footer class="main-footer horizontal-center">
       <p>Copyright &copy; 2020</p>
       <aside class="social">
         <a target="_blank" href="https://twitter.com/?lang=ro"
